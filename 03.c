@@ -29,7 +29,7 @@ void maiorNumero(int tamanhoVetor){
 
     for(int i=0;i<tamanhoVetor;i++){
         
-        vetor[i] = rand() % 100;
+        vetor[i] = rand() % 200;
         printf("%d ", vetor[i]);
         soma  = soma + vetor[i];
     }
@@ -74,6 +74,6 @@ void maiorNumero(int tamanhoVetor){
 
     printf("\n O menor numero eh: %d\n O maior numero eh %d", menor, maior);
     printf("\n A soma dos numeros eh: %.2f", soma);
-    printf("\n A media eh: %.2f", media);
+    printf("\n A media eh: %.2f", media);   
     
 }
